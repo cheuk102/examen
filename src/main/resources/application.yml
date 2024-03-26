@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: examen
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: pa$$word
+    url: jdbc:mysql://localhost/arredondo_bd
+    username: userAdmin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
